@@ -30,17 +30,63 @@ http://www.tooplate.com/view/2092-shelf
     <body>
         
         <div class="container">
-            <header class="tm-site-header">
-    <div style="display:flex; align-items:center; gap:20px;">
-        <!-- Logo NMH -->
-        <img src="img/logo-nmh.png" alt="Logo NMH" style="height:250px;">
+    <!-- HEADER -->
+    <header class="tm-site-header" style="position: relative;">
+        
+        <!-- WRAPPER LOGO + TEKS DI ATAS GAMBAR HEADER -->
+                <!-- WRAPPER LOGO + TEKS DALAM KOTAK PANJANG BIRU -->
+<div style="
+    position:absolute;
+    top:15px;
+    left:15px;
+    z-index:10;
+    background:linear-gradient(135deg, #0d6efd, #36c3ff);
 
-        <!-- Judul situs -->
-        <div>
-            <h1 class="tm-site-name"></h1>
-            <p class="tm-site-description"></p>
-        </div>
+    padding:3px 3px;
+    border-radius:18px;
+    display:flex;
+    align-items:center;
+    gap:0px;
+    box-shadow:0 3px 8px rgba(0,0,0,0.25);                /* shadow halus */
+    border:1px solid rgba(255,255,255,0.35);              /* garis putih tipis */
+">
+    <!-- LOGO -->
+    <img src="img/logo-nmh.png" 
+        alt="Logo NMH" 
+        style="
+            height:50px;
+            display:block;
+        ">
+
+    <!-- TEKS DI SEBELAH KANAN LOGO -->
+    <div style="
+        text-shadow:none;
+        line-height:1;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    ">
+        <p style="
+            margin:0;
+            font-size:14px;
+            font-weight:700;
+            line-height:1.1;
+            color:white;
+        ">
+            Nurul<br>
+            Muthmainnah<br>
+            Herman
+        </p>
     </div>
+</div>
+
+
+
+
+
+
+        <!-- (opsional) ruang kosong di bawah untuk menghindari ketindih logo -->
+        <div style="padding-top:120px;"></div>
 
                 
                 <nav class="navbar navbar-expand-md tm-main-nav-container">
@@ -227,8 +273,6 @@ http://www.tooplate.com/view/2092-shelf
 </body>
 
 </html>
-
-
 
 
 
