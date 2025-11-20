@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Materi Dasar Fisika - NMH</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+  <link rel="stylesheet" href="css/bootstrap1.min.css" />
+  <link rel="stylesheet" href="css/templatemo-style.css" />
+
+  <style>
+  /* Rapikan list di sidebar */
+  .tm-nav.tm-nav-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .tm-nav.tm-nav-list ul li {
+    margin-bottom: 4px;
+  }
+
+  .tm-nav.tm-nav-list ul li a {
+    display: block;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1.3;
+    text-decoration: none;
+    color: #333;
+    background-color: #f7f7f7;
+    transition: background 0.2s ease, color 0.2s ease, transform 0.1s ease;
+    white-space: normal;
+    word-wrap: break-word;
+  }
+
+  .tm-nav.tm-nav-list ul li a .tm-nav-deco {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin-right: 8px;
+    border-radius: 50%;
+    background-color: #007bff;
+    vertical-align: middle;
+  }
+
+  .tm-nav.tm-nav-list ul li a:hover {
+    background-color: #007bff;
+    color: #fff;
+    transform: translateX(2px);
+  }
+
+  .tm-nav.tm-nav-list ul li.active a {
+    background-color: #0056b3;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  /* ====== NAVBAR COLLAPSE STYLE ====== */
+
+  /* Tombol toggle di HP & desktop */
+  .tm-nav-toggle-btn {
+    display: inline-block;
+    margin: 10px auto 15px auto;
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: 1px solid #007bff;
+    background: #007bff;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .tm-nav-toggle-btn:focus {
+    outline: none;
+  }
+
+  /* Default: nav disembunyikan di semua ukuran layar */
+  .tm-nav-collapsible {
+    display: none;
+  }
+
+  /* Saat tombol diklik → JS menambah class .show */
+  .tm-nav-collapsible.show {
+    display: block;
+  }
+
+  @media (max-width: 768px) {
+    .tm-section {
+      display: block; /* supaya layout tidak pakai 2 kolom */
+    }
+
+    .tm-nav {
+      margin-bottom: 15px;
+    }
+  }
+</style>
+
+</head>
+
+<body>
+  <div class="tm-page-container mx-auto">
+    <header class="tm-header text-center">
+      <h1 class="tm-title text-uppercase">Materi Dasar Fisika</h1>
+      <p class="tm-primary-color"><i>Nurul Muthmainnah Herman</i></p>
+
+      <!-- TOMBOL TOGGLE NAVBAR (muncul di HP) -->
+      <button id="navToggleBtn" class="tm-nav-toggle-btn">
+        ☰ Klik Untuk Akses Materi
+      </button>
+    </header>
+
+    <section class="tm-section">
+      <!-- TAMBAH class tm-nav-collapsible -->
+      <nav class="tm-nav tm-nav-list tm-nav-collapsible" id="sideNav">
+        <ul>
+             <li class="active">
+            <a href="index.html"><span class="tm-nav-deco"></span>Home</a>
+          </li>
+          <li>
+            <a href="materi/ms1.html"><span class="tm-nav-deco"></span>Gerak Lurus Berubah Beraturan</a>
+          </li>
+          <li>
+            <a href="materi/ms2.html"><span class="tm-nav-deco"></span>Gerak Lurus Beraturan</a>
+          </li>
+          <li>
+            <a href="materi/ms3.html"><span class="tm-nav-deco"></span>Posisi, Jarak dan Perpindahan</a>
+          </li>
+          <li>
+            <a href="materi/ms4.html"><span class="tm-nav-deco"></span>Jenis Skala dalam Termometer</a>
+          </li>
+          <li>
+            <a href="materi/ms5.html"><span class="tm-nav-deco"></span>Suhu dan Alat Ukurnya</a>
+          </li>
+          <li>
+            <a href="materi/ms6.html"><span class="tm-nav-deco"></span>Interferensi Cahaya</a>
+          </li>
+          <li>
+            <a href="materi/ms7.html"><span class="tm-nav-deco"></span>Gaya Apung dan Prinsip Archimedes</a>
+          </li>
+          <li>
+            <a href="materi/ms8.html"><span class="tm-nav-deco"></span>Gaya Gesekan</a>
+          </li>
+          <li>
+            <a href="materi/ms9.html"><span class="tm-nav-deco"></span>Reaksi Termonuklir Terkendali</a>
+          </li>
+          <li>
+            <a href="#"><span class="tm-nav-deco"></span>Coming Soon</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="tm-content-container">
+        <figure class="mb-0">
+          <img src="img/img-1.jpg" alt="Image" class="img-fluid tm-img" />
+        </figure>
+        <div class="tm-content">
+          <h2 class="tm-page-title">SELAMAT DATANG DI MATERI DASAR FISIKA.</h2>
+          <p class="mb-4">
+            Pada halaman ini, Anda akan menemukan Materi Dasar Fisika yang telah disusun secara sistematis. Materi mencakup gerak lurus, suhu dan kalor, gaya, cahaya, hingga konsep dasar termodinamika. Setiap materi dilengkapi penjelasan ringkas sehingga mudah dipahami oleh semua tingkat pelajar.
+          </p>
+          <p>
+            Demikian rangkaian materi fisika yang telah disajikan. Semoga pembahasan ini dapat membantu memperkuat pemahaman konsep-konsep dasar dan menumbuhkan minat untuk mempelajari fisika lebih lanjut.
+<br>
+<br>
+<br>
+Salam hangat,
+<br>
+<strong>Nurul Muthmainnah Herman</strong>
+          </p>
+          
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      Copyright &copy; <span class="tm-current-year">2025</span> NMH
+      - Designed by <a href="#" target="_parent">Hashifah Adhwa Hermawan</a>
+    </footer>
+  </div>
+
+  <!-- JS sederhana untuk toggle navbar -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var btn = document.getElementById('navToggleBtn');
+      var nav = document.getElementById('sideNav');
+
+      if (btn && nav) {
+        btn.addEventListener('click', function () {
+          nav.classList.toggle('show');
+        });
+      }
+    });
+  </script>
+</body>
+
+</html>
