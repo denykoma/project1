@@ -319,7 +319,7 @@ http://www.templatemo.com/tm-509-hydro
   -----------------------------------------*/
 
   #home {
-    background: url('../home-bg.jpg') no-repeat center center;
+    background: url('../pm/home-bg.jpg') no-repeat center center;
     background-size: cover;
     vertical-align: middle;
     display: -webkit-box;
@@ -496,7 +496,7 @@ http://www.templatemo.com/tm-509-hydro
   }
 
   #blog-header {
-    background: url('blog-header-bg.jpg') no-repeat center center;
+    background: url('../pm/blog-header-bg.jpg') no-repeat center center;
     background-size: cover;
     display: -webkit-box;
     display: -webkit-flex;
@@ -1056,4 +1056,5 @@ http://www.templatemo.com/tm-509-hydro
     }
     
   }
+
 
